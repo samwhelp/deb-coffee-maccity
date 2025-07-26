@@ -31,17 +31,17 @@ package () {
 	echo cd "MacTahoe-icon-theme-main"
 	cd "MacTahoe-icon-theme-main"
 
-	local themes_dir_path="${pkgdir}/usr/share/themes"
+	local icons_dir_path="${pkgdir}/usr/share/icons"
 
 
 	echo
-	echo mkdir -p "${themes_dir_path}"
-	mkdir -p "${themes_dir_path}"
+	echo mkdir -p "${icons_dir_path}"
+	mkdir -p "${icons_dir_path}"
 
 
 	echo
-	echo ./install.sh -t all -d "${themes_dir_path}"
-	./install.sh -t all -d "${themes_dir_path}"
+	echo ./install.sh -t all -d "${icons_dir_path}"
+	./install.sh -t all -d "${icons_dir_path}"
 
 
 	echo
