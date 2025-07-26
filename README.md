@@ -120,7 +120,7 @@ pacstall -A "file://${HOME}/Documents/deb-coffee-maccity"
 > See Also `man 8 pacstall`
 
 
-## Demo
+## Howto
 
 ### Search
 
