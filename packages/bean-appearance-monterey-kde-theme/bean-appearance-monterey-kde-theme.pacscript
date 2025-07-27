@@ -86,6 +86,16 @@ mod_theme_install_plasma_theme () {
 
 
 
+	echo rm -rf "${des_dir_path}/desktoptheme/icons"
+	rm -rf "${des_dir_path}/desktoptheme/icons"
+
+
+	echo rm -rf "${des_dir_path}/desktoptheme/icons-old"
+	rm -rf "${des_dir_path}/desktoptheme/icons-old"
+
+
+
+
 	return 0
 }
 
@@ -95,16 +105,6 @@ mod_theme_install_sddm_theme () {
 	local des_dir_path="${pkgdir}/usr/share/sddm/themes/Monterey"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
-
-
-
-
-	echo rm -rf "${des_dir_path}/desktoptheme/icons"
-	rm -rf "${des_dir_path}/desktoptheme/icons"
-
-
-	echo rm -rf "${des_dir_path}/desktoptheme/icons-old"
-	rm -rf "${des_dir_path}/desktoptheme/icons-old"
 
 
 
