@@ -4,7 +4,7 @@ arch=("all")
 pkgver="0.1.1"
 pkgdesc="Sonoma Kde Theme"
 maintainer="develop <develop@home.heaven>"
-source=("https://github.com/vinceliuice/MacSonoma-kde/archive/refs/heads/master.tar.gz")
+source=("https://github.com/vinceliuice/MacSonoma-kde/archive/refs/heads/main.tar.gz")
 url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-sonoma-kde-theme"
 depends=()
 pacdeps=()
@@ -146,7 +146,7 @@ package () {
 
 	#prjdir="${_archive}"
 
-	prjdir="${srcdir}/MacSonoma-kde-master"
+	prjdir="${srcdir}/MacSonoma-kde-main"
 
 
 	echo
