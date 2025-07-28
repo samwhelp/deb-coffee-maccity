@@ -45,9 +45,8 @@ util_copy_from_srcdir_to_desdir () {
 
 mod_theme_install_aurorae_theme () {
 
-	#local src_dir_path="${prjdir}/aurorae/Sharp"
-	local src_dir_path="${prjdir}/aurorae/Round"
-	local des_dir_path="${pkgdir}/usr/share/aurorae/themes"
+	local src_dir_path="${prjdir}/aurorae/Muse"
+	local des_dir_path="${pkgdir}/usr/share/aurorae/themes/Muse"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
 
