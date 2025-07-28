@@ -115,7 +115,7 @@ mod_theme_install_sddm_theme () {
 mod_theme_install_wallpaper () {
 
 	local src_dir_path="${prjdir}/wallpaper"
-	local des_dir_path="${pkgdir}/usr/share/wallpaper"
+	local des_dir_path="${pkgdir}/usr/share/wallpapers"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
 

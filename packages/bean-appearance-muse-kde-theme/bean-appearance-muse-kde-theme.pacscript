@@ -1,11 +1,11 @@
-pkgname="bean-appearance-sonoma-kde-theme"
+pkgname="bean-appearance-muse-kde-theme"
 gives="${pkgname}"
 arch=("all")
 pkgver="0.1.1"
-pkgdesc="Sonoma Kde Theme"
+pkgdesc="Muse Kde Theme"
 maintainer="develop <develop@home.heaven>"
-source=("https://github.com/vinceliuice/MacSonoma-kde/archive/refs/heads/main.tar.gz")
-url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-sonoma-kde-theme"
+source=("https://github.com/vinceliuice/Muse-kde/archive/refs/heads/main.tar.gz")
+url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-muse-kde-theme"
 depends=()
 pacdeps=()
 replace=()
@@ -106,8 +106,8 @@ mod_theme_install_plasma_theme () {
 
 mod_theme_install_sddm_theme () {
 
-	local src_dir_path="${prjdir}/sddm-dark/MacSonoma-6.0"
-	local des_dir_path="${pkgdir}/usr/share/sddm/themes/MacSonoma"
+	local src_dir_path="${prjdir}/sddm-dark/6.0/Muse"
+	local des_dir_path="${pkgdir}/usr/share/sddm/themes/Muse"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
 
@@ -117,7 +117,7 @@ mod_theme_install_sddm_theme () {
 
 mod_theme_install_wallpaper () {
 
-	local src_dir_path="${prjdir}/wallpapers"
+	local src_dir_path="${prjdir}/wallpaper"
 	local des_dir_path="${pkgdir}/usr/share/wallpapers"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
@@ -147,7 +147,7 @@ package () {
 
 	#prjdir="${_archive}"
 
-	prjdir="${srcdir}/MacSonoma-kde-main"
+	prjdir="${srcdir}/Muse-kde-main"
 
 
 	echo
