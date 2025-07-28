@@ -40,8 +40,8 @@ package () {
 
 
 	echo
-	echo ./install.sh -t all -d "${icons_dir_path}"
-	./install.sh -t all -d "${icons_dir_path}"
+	echo ./install.sh -a -t all -d "${icons_dir_path}"
+	./install.sh -a -t all -d "${icons_dir_path}"
 
 
 	echo
