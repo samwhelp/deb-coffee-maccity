@@ -139,6 +139,18 @@ mod_theme_install_plasma_theme () {
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
 
 
+
+
+	echo rm -rf "${des_dir_path}/layout-templates"
+	rm -rf "${des_dir_path}/layout-templates"
+
+
+	echo rm -rf "${des_dir_path}/plasmoids"
+	rm -rf "${des_dir_path}/plasmoids"
+
+
+
+
 	return 0
 }
 
