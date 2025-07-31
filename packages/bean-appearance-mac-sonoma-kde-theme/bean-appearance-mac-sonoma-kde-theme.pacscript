@@ -1,11 +1,11 @@
-pkgname="bean-appearance-whitesur-kde-theme"
+pkgname="bean-appearance-mac-sonoma-kde-theme"
 gives="${pkgname}"
 arch=("all")
 pkgver="0.1.1"
-pkgdesc="WhiteSur Kde Theme"
+pkgdesc="Mac Sonoma Kde Theme"
 maintainer="develop <develop@home.heaven>"
-source=("https://github.com/vinceliuice/WhiteSur-kde/archive/refs/heads/master.tar.gz")
-url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-whitesur-kde-theme"
+source=("https://github.com/vinceliuice/MacSonoma-kde/archive/refs/heads/main.tar.gz")
+url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-mac-sonoma-kde-theme"
 depends=()
 pacdeps=()
 replace=()
@@ -45,9 +45,8 @@ util_copy_from_srcdir_to_desdir () {
 
 mod_theme_install_aurorae_theme () {
 
-	#local src_dir_path="${prjdir}/aurorae/main-opaque"
-	#local src_dir_path="${prjdir}/aurorae/main-sharp"
-	local src_dir_path="${prjdir}/aurorae/main"
+	#local src_dir_path="${prjdir}/aurorae/Sharp"
+	local src_dir_path="${prjdir}/aurorae/Round"
 	local des_dir_path="${pkgdir}/usr/share/aurorae/themes"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
@@ -88,6 +87,10 @@ mod_theme_install_plasma_theme () {
 
 
 
+	echo rm -rf "${des_dir_path}/plasmoids"
+	rm -rf "${des_dir_path}/plasmoids"
+
+
 	echo rm -rf "${des_dir_path}/desktoptheme/icons"
 	rm -rf "${des_dir_path}/desktoptheme/icons"
 
@@ -103,8 +106,8 @@ mod_theme_install_plasma_theme () {
 
 mod_theme_install_sddm_theme () {
 
-	local src_dir_path="${prjdir}/sddm-dark/6.0"
-	local des_dir_path="${pkgdir}/usr/share/sddm/themes/WhiteSur"
+	local src_dir_path="${prjdir}/sddm-dark/MacSonoma-6.0"
+	local des_dir_path="${pkgdir}/usr/share/sddm/themes/MacSonoma"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
 
@@ -114,7 +117,7 @@ mod_theme_install_sddm_theme () {
 
 mod_theme_install_wallpaper () {
 
-	local src_dir_path="${prjdir}/wallpaper"
+	local src_dir_path="${prjdir}/wallpapers"
 	local des_dir_path="${pkgdir}/usr/share/wallpapers"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
@@ -144,7 +147,7 @@ package () {
 
 	#prjdir="${_archive}"
 
-	prjdir="${srcdir}/WhiteSur-kde-master"
+	prjdir="${srcdir}/MacSonoma-kde-main"
 
 
 	echo

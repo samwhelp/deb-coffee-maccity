@@ -1,11 +1,11 @@
-pkgname="bean-appearance-tahoe-gtk-theme"
+pkgname="bean-appearance-mac-tahoe-gtk-theme"
 gives="${pkgname}"
 arch=("all")
 pkgver="0.1.1"
-pkgdesc="Tahoe Gtk Theme"
+pkgdesc="Mac Tahoe Gtk Theme"
 maintainer="develop <develop@home.heaven>"
 source=("https://github.com/vinceliuice/MacTahoe-gtk-theme/archive/refs/heads/main.tar.gz")
-url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-tahoe-gtk-theme"
+url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-mac-tahoe-gtk-theme"
 depends=()
 pacdeps=()
 replace=()

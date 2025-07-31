@@ -1,11 +1,11 @@
-pkgname="bean-appearance-tahoe-icon-theme"
+pkgname="bean-appearance-mac-tahoe-icon-theme"
 gives="${pkgname}"
 arch=("all")
 pkgver="0.1.1"
-pkgdesc="Tahoe Icon Theme"
+pkgdesc="Mac Tahoe Icon Theme"
 maintainer="develop <develop@home.heaven>"
 source=("https://github.com/vinceliuice/MacTahoe-icon-theme/archive/refs/heads/main.tar.gz")
-url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-tahoe-icon-theme"
+url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-mac-tahoe-icon-theme"
 depends=()
 pacdeps=()
 replace=()

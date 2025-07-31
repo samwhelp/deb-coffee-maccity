@@ -1,11 +1,11 @@
-pkgname="bean-appearance-sonoma-kde-theme"
+pkgname="bean-appearance-mac-ventura-kde-theme"
 gives="${pkgname}"
 arch=("all")
 pkgver="0.1.1"
-pkgdesc="Sonoma Kde Theme"
+pkgdesc="Mac Ventura Kde Theme"
 maintainer="develop <develop@home.heaven>"
-source=("https://github.com/vinceliuice/MacSonoma-kde/archive/refs/heads/main.tar.gz")
-url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-sonoma-kde-theme"
+source=("https://github.com/vinceliuice/MacVentura-kde/archive/refs/heads/main.tar.gz")
+url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-mac-ventura-kde-theme"
 depends=()
 pacdeps=()
 replace=()
@@ -87,6 +87,11 @@ mod_theme_install_plasma_theme () {
 
 
 
+
+	echo rm -rf "${des_dir_path}/layout-templates"
+	rm -rf "${des_dir_path}/layout-templates"
+
+
 	echo rm -rf "${des_dir_path}/plasmoids"
 	rm -rf "${des_dir_path}/plasmoids"
 
@@ -106,8 +111,8 @@ mod_theme_install_plasma_theme () {
 
 mod_theme_install_sddm_theme () {
 
-	local src_dir_path="${prjdir}/sddm-dark/MacSonoma-6.0"
-	local des_dir_path="${pkgdir}/usr/share/sddm/themes/MacSonoma"
+	local src_dir_path="${prjdir}/sddm-dark/MacVentura-6.0"
+	local des_dir_path="${pkgdir}/usr/share/sddm/themes/MacVentura"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
 
@@ -147,7 +152,7 @@ package () {
 
 	#prjdir="${_archive}"
 
-	prjdir="${srcdir}/MacSonoma-kde-main"
+	prjdir="${srcdir}/MacVentura-kde-main"
 
 
 	echo

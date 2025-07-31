@@ -1,16 +1,34 @@
-pkgname="bean-appearance-mojave-kde-theme"
+pkgname="bean-appearance-mac-tahoe-kde-theme"
 gives="${pkgname}"
 arch=("all")
 pkgver="0.1.1"
-pkgdesc="Mojave Kde Theme"
+pkgdesc="Mac Tahoe Kde Theme"
 maintainer="develop <develop@home.heaven>"
-source=("https://github.com/vinceliuice/McMojave-kde/archive/refs/heads/master.tar.gz")
-url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-mojave-kde-theme"
+source=("https://github.com/vinceliuice/MacTahoe-kde/archive/refs/heads/main.tar.gz")
+url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-mac-tahoe-kde-theme"
 depends=()
 pacdeps=()
 replace=()
 
 
+
+
+util_copy_from_srcfile_to_desfile () {
+
+	local src_file_path="${1}"
+	local des_file_path="${2}"
+
+
+	echo
+	echo cp -f "${src_file_path}" "${des_file_path}"
+	cp -f "${src_file_path}" "${des_file_path}"
+
+
+	echo
+
+	return 0
+
+}
 
 
 util_copy_from_srcdir_to_desdir () {
@@ -41,6 +59,40 @@ util_copy_from_srcdir_to_desdir () {
 }
 
 
+sys_theme_install_aurorae_theme_each () {
+
+	local src_dir_path="${prjdir}/aurorae"
+	local des_dir_path="${pkgdir}/usr/share/aurorae/themes"
+
+	local the_main_name="MacTahoe"
+	local the_brightness="${1}"
+	local the_theme_name="${the_main_name}-${the_brightness}"
+
+
+
+	util_copy_from_srcdir_to_desdir "${src_dir_path}/${the_theme_name}" "${des_dir_path}/${the_theme_name}"
+
+
+	util_copy_from_srcdir_to_desdir "${src_dir_path}/icons-${the_brightness}" "${des_dir_path}/${the_theme_name}"
+
+
+	util_copy_from_srcfile_to_desfile "${src_dir_path}/${the_brightness}rc" "${des_dir_path}/${the_theme_name}/${the_theme_name}rc"
+
+
+	util_copy_from_srcfile_to_desfile "${src_dir_path}/metadata.desktop" "${des_dir_path}/${the_theme_name}/metadata.desktop"
+
+
+	util_copy_from_srcfile_to_desfile "${src_dir_path}/metadata.json" "${des_dir_path}/${the_theme_name}/metadata.json"
+
+
+	sed -i "s|theme_name|${the_theme_name}|g" "${des_dir_path}/${the_theme_name}/metadata.desktop"
+
+
+	sed -i "s|theme_name|${the_theme_name}|g" "${des_dir_path}/${the_theme_name}/metadata.json"
+
+
+	return 0
+}
 
 
 mod_theme_install_aurorae_theme () {
@@ -48,7 +100,10 @@ mod_theme_install_aurorae_theme () {
 	local src_dir_path="${prjdir}/aurorae"
 	local des_dir_path="${pkgdir}/usr/share/aurorae/themes"
 
-	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
+
+	sys_theme_install_aurorae_theme_each "Dark"
+
+	sys_theme_install_aurorae_theme_each "Ligth"
 
 
 	return 0
@@ -84,17 +139,21 @@ mod_theme_install_plasma_theme () {
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
 
 
-
-
 	return 0
 }
 
 mod_theme_install_sddm_theme () {
 
-	local src_dir_path="${prjdir}/sddm-dark/6.0/McMojave"
-	local des_dir_path="${pkgdir}/usr/share/sddm/themes/McMojave"
+	local src_dir_path="${prjdir}/sddm/MacTahoe-6.0"
+	local des_dir_path="${pkgdir}/usr/share/sddm/themes/MacTahoe"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
+
+
+	util_copy_from_srcfile_to_desfile "${prjdir}/sddm/images/Background-Dark.jpeg" "${des_dir_path}/Background.jpeg"
+
+
+	util_copy_from_srcfile_to_desfile "${prjdir}/sddm/images/Preview-Dark.jpeg" "${des_dir_path}/Preview.jpeg"
 
 
 	return 0
@@ -102,7 +161,7 @@ mod_theme_install_sddm_theme () {
 
 mod_theme_install_wallpaper () {
 
-	local src_dir_path="${prjdir}/wallpaper"
+	local src_dir_path="${prjdir}/wallpapers"
 	local des_dir_path="${pkgdir}/usr/share/wallpapers"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
@@ -132,7 +191,7 @@ package () {
 
 	#prjdir="${_archive}"
 
-	prjdir="${srcdir}/McMojave-kde-master"
+	prjdir="${srcdir}/MacTahoe-kde-main"
 
 
 	echo

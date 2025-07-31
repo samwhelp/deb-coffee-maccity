@@ -1,11 +1,11 @@
-pkgname="bean-appearance-monterey-kde-theme"
+pkgname="bean-appearance-mac-whitesur-kde-theme"
 gives="${pkgname}"
 arch=("all")
 pkgver="0.1.1"
-pkgdesc="Monterey Kde Theme"
+pkgdesc="Mac WhiteSur Kde Theme"
 maintainer="develop <develop@home.heaven>"
-source=("https://github.com/vinceliuice/Monterey-kde/archive/refs/heads/main.tar.gz")
-url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-monterey-kde-theme"
+source=("https://github.com/vinceliuice/WhiteSur-kde/archive/refs/heads/master.tar.gz")
+url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-mac-whitesur-kde-theme"
 depends=()
 pacdeps=()
 replace=()
@@ -45,7 +45,9 @@ util_copy_from_srcdir_to_desdir () {
 
 mod_theme_install_aurorae_theme () {
 
-	local src_dir_path="${prjdir}/aurorae"
+	#local src_dir_path="${prjdir}/aurorae/main-opaque"
+	#local src_dir_path="${prjdir}/aurorae/main-sharp"
+	local src_dir_path="${prjdir}/aurorae/main"
 	local des_dir_path="${pkgdir}/usr/share/aurorae/themes"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
@@ -101,12 +103,10 @@ mod_theme_install_plasma_theme () {
 
 mod_theme_install_sddm_theme () {
 
-	local src_dir_path="${prjdir}/sddm-dark/Monterey"
-	local des_dir_path="${pkgdir}/usr/share/sddm/themes/Monterey"
+	local src_dir_path="${prjdir}/sddm-dark/6.0"
+	local des_dir_path="${pkgdir}/usr/share/sddm/themes/WhiteSur"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
-
-
 
 
 	return 0
@@ -144,7 +144,7 @@ package () {
 
 	#prjdir="${_archive}"
 
-	prjdir="${srcdir}/Monterey-kde-main"
+	prjdir="${srcdir}/WhiteSur-kde-master"
 
 
 	echo

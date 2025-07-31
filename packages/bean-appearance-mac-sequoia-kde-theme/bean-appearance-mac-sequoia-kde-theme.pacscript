@@ -1,11 +1,11 @@
-pkgname="bean-appearance-ventura-kde-theme"
+pkgname="bean-appearance-mac-sequoia-kde-theme"
 gives="${pkgname}"
 arch=("all")
 pkgver="0.1.1"
-pkgdesc="Ventura Kde Theme"
+pkgdesc="Mac Sequoia Kde Theme"
 maintainer="develop <develop@home.heaven>"
-source=("https://github.com/vinceliuice/MacVentura-kde/archive/refs/heads/main.tar.gz")
-url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-ventura-kde-theme"
+source=("https://github.com/vinceliuice/MacSequoia-kde/archive/refs/heads/main.tar.gz")
+url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-mac-sequoia-kde-theme"
 depends=()
 pacdeps=()
 replace=()
@@ -87,11 +87,6 @@ mod_theme_install_plasma_theme () {
 
 
 
-
-	echo rm -rf "${des_dir_path}/layout-templates"
-	rm -rf "${des_dir_path}/layout-templates"
-
-
 	echo rm -rf "${des_dir_path}/plasmoids"
 	rm -rf "${des_dir_path}/plasmoids"
 
@@ -111,8 +106,8 @@ mod_theme_install_plasma_theme () {
 
 mod_theme_install_sddm_theme () {
 
-	local src_dir_path="${prjdir}/sddm-dark/MacVentura-6.0"
-	local des_dir_path="${pkgdir}/usr/share/sddm/themes/MacVentura"
+	local src_dir_path="${prjdir}/sddm-dark/MacSequoia-6.0"
+	local des_dir_path="${pkgdir}/usr/share/sddm/themes/MacSequoia"
 
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
 
@@ -152,7 +147,7 @@ package () {
 
 	#prjdir="${_archive}"
 
-	prjdir="${srcdir}/MacVentura-kde-main"
+	prjdir="${srcdir}/MacSequoia-kde-main"
 
 
 	echo
