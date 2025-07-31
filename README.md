@@ -38,6 +38,7 @@
 
 | Pacscript | Source |
 | --------- | ------ |
+| [bean-appearance-tahoe-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-tahoe-kde-theme/bean-appearance-tahoe-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/MacTahoe-kde) |
 | [bean-appearance-muse-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-muse-kde-theme/bean-appearance-muse-kde-theme.pacscript) | [Source](https://github.com/yeyushengfan258/Muse-kde) |
 | [bean-appearance-whitesur-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-whitesur-kde-theme/bean-appearance-whitesur-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/WhiteSur-kde) |
 | [bean-appearance-mojave-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-mojave-kde-theme/bean-appearance-mojave-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/McMojave-kde) |
