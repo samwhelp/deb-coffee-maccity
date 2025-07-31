@@ -76,7 +76,7 @@ sys_theme_install_aurorae_theme_each () {
 	util_copy_from_srcdir_to_desdir "${src_dir_path}/icons-${the_brightness}" "${des_dir_path}/${the_theme_name}"
 
 
-	util_copy_from_srcfile_to_desfile "${src_dir_path}/${the_brightness}rc" "${des_dir_path}/${the_theme_name}/${the_brightness}rc"
+	util_copy_from_srcfile_to_desfile "${src_dir_path}/${the_brightness}rc" "${des_dir_path}/${the_theme_name}/${the_theme_name}rc"
 
 
 	util_copy_from_srcfile_to_desfile "${src_dir_path}/metadata.desktop" "${des_dir_path}/${the_theme_name}/metadata.desktop"
