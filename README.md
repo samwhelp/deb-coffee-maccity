@@ -28,7 +28,7 @@
 
 | Pacscript | Source |
 | --------- | ------ |
-| [bean-appearance-tahoe-icon-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-tahoe-icon-theme/bean-appearance-tahoe-icon-theme.pacscript) | [Source](https://github.com/vinceliuice/MacTahoe-icon-theme) |
+| [bean-appearance-mac-tahoe-icon-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-mac-tahoe-icon-theme/bean-appearance-mac-tahoe-icon-theme.pacscript) | [Source](https://github.com/vinceliuice/MacTahoe-icon-theme) |
 | [bean-appearance-muse-icon-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-muse-icon-theme/bean-appearance-muse-icon-theme.pacscript) | [Source](https://github.com/yeyushengfan258/McMuse-icon-theme) |
 | [bean-appearance-muse-circle-icon-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-muse-circle-icon-theme/bean-appearance-muse-circle-icon-theme.pacscript) | [Source](https://github.com/yeyushengfan258/McMuse-circle) |
 | [bean-appearance-bigsur-icon-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-bigsur-icon-theme/bean-appearance-bigsur-icon-theme.pacscript) | [Source](https://github.com/yeyushengfan258/BigSur-icon-theme) |
@@ -38,21 +38,21 @@
 
 | Pacscript | Source |
 | --------- | ------ |
-| [bean-appearance-tahoe-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-tahoe-kde-theme/bean-appearance-tahoe-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/MacTahoe-kde) |
+| [bean-appearance-mac-tahoe-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-mac-tahoe-kde-theme/bean-appearance-mac-tahoe-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/MacTahoe-kde) |
 | [bean-appearance-muse-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-muse-kde-theme/bean-appearance-muse-kde-theme.pacscript) | [Source](https://github.com/yeyushengfan258/Muse-kde) |
-| [bean-appearance-whitesur-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-whitesur-kde-theme/bean-appearance-whitesur-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/WhiteSur-kde) |
-| [bean-appearance-mojave-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-mojave-kde-theme/bean-appearance-mojave-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/McMojave-kde) |
-| [bean-appearance-ventura-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-ventura-kde-theme/bean-appearance-ventura-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/MacVentura-kde) |
-| [bean-appearance-sonoma-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-sonoma-kde-theme/bean-appearance-sonoma-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/MacSonoma-kde) |
-| [bean-appearance-sequoia-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-sequoia-kde-theme/bean-appearance-sequoia-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/MacSequoia-kde) |
-| [bean-appearance-monterey-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-monterey-kde-theme/bean-appearance-monterey-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/Monterey-kde) |
+| [bean-appearance-mac-whitesur-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-mac-whitesur-kde-theme/bean-appearance-mac-whitesur-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/WhiteSur-kde) |
+| [bean-appearance-mac-mojave-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-mac-mojave-kde-theme/bean-appearance-mac-mojave-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/McMojave-kde) |
+| [bean-appearance-mac-ventura-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-mac-ventura-kde-theme/bean-appearance-mac-ventura-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/MacVentura-kde) |
+| [bean-appearance-mac-sonoma-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-mac-sonoma-kde-theme/bean-appearance-mac-sonoma-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/MacSonoma-kde) |
+| [bean-appearance-mac-sequoia-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-mac-sequoia-kde-theme/bean-appearance-mac-sequoia-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/MacSequoia-kde) |
+| [bean-appearance-mac-monterey-kde-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-mac-monterey-kde-theme/bean-appearance-mac-monterey-kde-theme.pacscript) | [Source](https://github.com/vinceliuice/Monterey-kde) |
 
 
 ### gtk-theme
 
 | Pacscript | Source |
 | --------- | ------ |
-| [bean-appearance-tahoe-gtk-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-tahoe-gtk-theme/bean-appearance-tahoe-gtk-theme.pacscript) | [Source](https://github.com/vinceliuice/MacTahoe-gtk-theme) |
+| [bean-appearance-mac-tahoe-gtk-theme](https://github.com/samwhelp/deb-coffee-maccity/blob/main/packages/bean-appearance-mac-tahoe-gtk-theme/bean-appearance-mac-tahoe-gtk-theme.pacscript) | [Source](https://github.com/vinceliuice/MacTahoe-gtk-theme) |
 
 
 
