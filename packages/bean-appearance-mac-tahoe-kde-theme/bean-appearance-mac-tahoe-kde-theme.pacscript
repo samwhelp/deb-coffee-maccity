@@ -103,7 +103,7 @@ mod_theme_install_aurorae_theme () {
 
 	sys_theme_install_aurorae_theme_each "Dark"
 
-	sys_theme_install_aurorae_theme_each "Ligth"
+	sys_theme_install_aurorae_theme_each "Light"
 
 
 	return 0
