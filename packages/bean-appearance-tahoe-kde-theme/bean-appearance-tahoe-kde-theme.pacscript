@@ -150,6 +150,12 @@ mod_theme_install_sddm_theme () {
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
 
 
+	util_copy_from_srcfile_to_desfile "${prjdir}/sddm/images/Background-Dark.jpeg" "${des_dir_path}/Background.jpeg"
+
+
+	util_copy_from_srcfile_to_desfile "${prjdir}/sddm/images/Preview-Dark.jpeg" "${des_dir_path}/Preview.jpeg"
+
+
 	return 0
 }
 
