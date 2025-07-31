@@ -87,6 +87,11 @@ mod_theme_install_plasma_theme () {
 
 
 
+
+	echo rm -rf "${des_dir_path}/layout-templates"
+	rm -rf "${des_dir_path}/layout-templates"
+
+
 	echo rm -rf "${des_dir_path}/plasmoids"
 	rm -rf "${des_dir_path}/plasmoids"
 
