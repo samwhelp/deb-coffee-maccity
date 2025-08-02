@@ -20,6 +20,9 @@
 | [deb-coffee](https://github.com/samwhelp/deb-coffee) |
 | [deb-coffee-maccity](https://github.com/samwhelp/deb-coffee-maccity) |
 | [deb-coffee-wincity](https://github.com/samwhelp/deb-coffee-wincity) |
+| [deb-coffee-fancy](https://github.com/samwhelp/deb-coffee-fancy) |
+| [deb-coffee-grub](https://github.com/samwhelp/deb-coffee-grub) |
+| [deb-coffee-sddm](https://github.com/samwhelp/deb-coffee-sddm) |
 
 
 
