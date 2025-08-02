@@ -1,11 +1,11 @@
-pkgname="bean-appearance-mac-whitesur-kde-theme"
+pkgname="bean-appearance-whitesur-kde-theme"
 gives="${pkgname}"
 arch=("all")
 pkgver="0.1.1"
 pkgdesc="Mac WhiteSur Kde Theme"
 maintainer="develop <develop@home.heaven>"
 source=("https://github.com/vinceliuice/WhiteSur-kde/archive/refs/heads/master.tar.gz")
-url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-mac-whitesur-kde-theme"
+url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-whitesur-kde-theme"
 depends=()
 pacdeps=()
 replace=()

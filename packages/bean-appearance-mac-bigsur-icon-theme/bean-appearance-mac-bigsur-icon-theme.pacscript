@@ -1,11 +1,11 @@
-pkgname="bean-appearance-bigsur-icon-theme"
+pkgname="bean-appearance-mac-bigsur-icon-theme"
 gives="${pkgname}"
 arch=("all")
 pkgver="0.1.1"
 pkgdesc="BigSur Icon Theme"
 maintainer="develop <develop@home.heaven>"
 source=("https://github.com/yeyushengfan258/BigSur-icon-theme/archive/refs/heads/master.tar.gz")
-url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-bigsur-icon-theme"
+url="https://github.com/samwhelp/deb-coffee-maccity/tree/main/packages/bean-appearance-mac-bigsur-icon-theme"
 depends=()
 pacdeps=()
 replace=()
