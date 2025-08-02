@@ -21,6 +21,7 @@
 | [deb-coffee-maccity](https://github.com/samwhelp/deb-coffee-maccity) |
 | [deb-coffee-wincity](https://github.com/samwhelp/deb-coffee-wincity) |
 | [deb-coffee-fancy](https://github.com/samwhelp/deb-coffee-fancy) |
+| [deb-coffee-gruvbox](https://github.com/samwhelp/deb-coffee-gruvbox) |
 | [deb-coffee-grub](https://github.com/samwhelp/deb-coffee-grub) |
 | [deb-coffee-sddm](https://github.com/samwhelp/deb-coffee-sddm) |
 
@@ -106,7 +107,6 @@ show
 ```
 https://raw.githubusercontent.com/pacstall/pacstall-programs/master
 https://raw.githubusercontent.com/samwhelp/deb-coffee-maccity/main
-https://raw.githubusercontent.com/samwhelp/deb-coffee/main
 ```
 
 
@@ -146,19 +146,19 @@ pacstall -S bean
 ### Build and Install
 
 ``` sh
-pacstall -I bean-appearance-tahoe-gtk-theme
+pacstall -I bean-appearance-mac-tahoe-gtk-theme
 ```
 
 
 ### Only Build
 
 ``` sh
-pacstall -I -B bean-appearance-tahoe-gtk-theme
+pacstall -I -B bean-appearance-mac-tahoe-gtk-theme
 ```
 
 
 ### Download pacscript
 
 ``` sh
-pacstall -D bean-appearance-tahoe-gtk-theme
+pacstall -D bean-appearance-mac-tahoe-gtk-theme
 ```
