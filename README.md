@@ -135,7 +135,7 @@ pacstall -A "file://${HOME}/Documents/deb-coffee-maccity"
 ### Search
 
 ``` sh
-pacstall -S tahoe
+pacstall -S mac
 ```
 
 ``` sh
