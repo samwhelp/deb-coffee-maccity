@@ -64,7 +64,10 @@
 | [deb-recipe](https://samwhelp.github.io/deb-recipe/) | [GitHub](https://github.com/samwhelp/deb-recipe) |
 | [pacstall-packaging](https://samwhelp.github.io/deb-recipe/) | [GitHub](https://github.com/samwhelp/pacstall-packaging) |
 | [deb-coffee](https://samwhelp.github.io/deb-coffee/) | [GitHub](https://github.com/samwhelp/deb-coffee) |
+| [deb-coffee-maccity](https://samwhelp.github.io/deb-coffee-maccity/) | [GitHub](https://github.com/samwhelp/deb-coffee-maccity) |
 | [deb-coffee-wincity](https://samwhelp.github.io/deb-coffee-wincity/) | [GitHub](https://github.com/samwhelp/deb-coffee-wincity) |
 | [deb-coffee-fancy](https://samwhelp.github.io/deb-coffee-fancy/) | [GitHub](https://github.com/samwhelp/deb-coffee-fancy) |
 | [deb-coffee-gruvbox](https://samwhelp.github.io/deb-coffee-gruvbox/) | [GitHub](https://github.com/samwhelp/deb-coffee-gruvbox) |
+| [deb-coffee-grub](https://samwhelp.github.io/deb-coffee-grub/) | [GitHub](https://github.com/samwhelp/deb-coffee-grub) |
+| [deb-coffee-sddm](https://samwhelp.github.io/deb-coffee-sddm/) | [GitHub](https://github.com/samwhelp/deb-coffee-sddm) |
 | [ubuntu-iso-builder-template](https://samwhelp.github.io/ubuntu-iso-builder-template/) | [GitHub](https://github.com/samwhelp/ubuntu-iso-builder-template) |
