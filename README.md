@@ -71,3 +71,4 @@
 | [deb-coffee-grub](https://samwhelp.github.io/deb-coffee-grub/) | [GitHub](https://github.com/samwhelp/deb-coffee-grub) |
 | [deb-coffee-sddm](https://samwhelp.github.io/deb-coffee-sddm/) | [GitHub](https://github.com/samwhelp/deb-coffee-sddm) |
 | [ubuntu-iso-builder-template](https://samwhelp.github.io/ubuntu-iso-builder-template/) | [GitHub](https://github.com/samwhelp/ubuntu-iso-builder-template) |
+| [debian-iso-builder-template](https://samwhelp.github.io/debian-iso-builder-template/) | [GitHub](https://github.com/samwhelp/debian-iso-builder-template) |
